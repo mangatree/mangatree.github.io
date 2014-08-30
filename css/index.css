@@ -1,0 +1,54 @@
+body {
+	font-size: 1em;
+	color: #888;
+	background: #ffd264;
+}
+
+a:link {
+	color: #FFF;
+}
+a:visited {
+	color: #FFF;
+}
+a:hover {
+	color: #FF0;
+}
+a:active {
+	color: #FFF;
+}
+
+#content {
+	margin: 0 auto;
+	width: 800px;
+}
+
+.list_sns_mt {
+	padding-bottom: 200px;
+	margin: 20px 0;
+	width: 800px;
+	list-style-type: none;
+}
+
+.list_sns_mt li a {
+	margin-left: 15px;
+	padding: 1em;
+	width: 350px;
+	background-color: #85cffc;
+	border-radius: 10px;
+	float: left;
+}
+
+.list_sns_mt li a:hover {
+	color: #85cffc;
+	background-color: #FFF;
+}
+
+footer {
+	padding: 1em 0;
+	width: 100%;
+	background: #FFF;
+}
+
+.clear_mt {
+	clear: both;
+}
