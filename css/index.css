@@ -41,17 +41,19 @@ h1.title_mt {
 }
 
 .list_sns_mt {
-	padding-bottom: 200px;
+    padding-bottom: 100px;
 	margin: 20px auto;
-	width: 100%;
+	width: 800px;
 	list-style-type: none;
 }
 
 .list_sns_mt li a {
 	margin-left: 15px;
 	padding: 1em;
-	width: 25%;
+	width: 200px;
+    height: 20px;
     color: #000;
+    text-decoration: none;
 	background-color: #85cffc;
 	border-radius: 10px;
 	float: left;
