@@ -19,20 +19,39 @@ a:active {
 
 #content {
 	margin: 0 auto;
-	width: 800px;
+	width: 100%;
+}
+
+.titleBlock_mt {
+    padding: 50px 0;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url(../img/index_bg.jpg);
+}
+
+.captionBlock_mt {
+    padding: 50px 0;
+    margin: 0 auto;
+    width: 100%;
+    background: #59493f;
+}
+
+h1.title_mt {
+    margin: 50px;
 }
 
 .list_sns_mt {
 	padding-bottom: 200px;
-	margin: 20px 0;
-	width: 800px;
+	margin: 20px auto;
+	width: 100%;
 	list-style-type: none;
 }
 
 .list_sns_mt li a {
 	margin-left: 15px;
 	padding: 1em;
-	width: 350px;
+	width: 25%;
+    color: #000;
 	background-color: #85cffc;
 	border-radius: 10px;
 	float: left;
@@ -41,6 +60,12 @@ a:active {
 .list_sns_mt li a:hover {
 	color: #85cffc;
 	background-color: #FFF;
+}
+
+.contact_mt {
+    width: 800px;
+    background-color: #85cffc;
+	border-radius: 10px;
 }
 
 footer {
